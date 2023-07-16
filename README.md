@@ -2,7 +2,6 @@
 ## Install & run dev
 ```
 git clone https://github.com/saigonbitmaster/helpBlocks
-add local host dns record /etc/hosts: 127.0.0.1  bworks.bworks.app
 
 cd helpBlocks
 add .env file for frontend Apps:
@@ -34,6 +33,7 @@ yarn web
 ```
 git clone https://github.com/saigonbitmaster/helpBlocks
 cd helpBlocks
+## required to run cardano_serialize_lib
 export NODE_OPTIONS="--max-old-space-size=8192"
 yarn 
 yarn build-lib
